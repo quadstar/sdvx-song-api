@@ -50,7 +50,6 @@ function fetcher(cb){
    	});
 	Song.find()
 	Song.collection.insert(docs, function(result){
-		// cb('good');
 		console.log('done');
 	});
 	}  	
